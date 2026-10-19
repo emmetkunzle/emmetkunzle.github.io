@@ -1,0 +1,35 @@
+<script>
+  // Apply saved choice immediately so the page doesn't flash the wrong theme
+  (function () {
+    try {
+      var saved = localStorage.getItem("theme");
+      if (saved) document.documentElement.setAttribute("data-theme", saved);
+    } catch (e) {}
+  })();
+
+  // Add the toggle button once the page loads
+  document.addEventListener("DOMContentLoaded", function () {
+    var root = document.documentElement;
+    var btn = document.createElement("button");
+    btn.className = "theme-toggle";
+    btn.type = "button";
+
+    function current() {
+      return root.getAttribute("data-theme") ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    }
+    function updateLabel() {
+      btn.textContent = current() === "dark" ? "☀️ Light" : "🌙 Dark";
+    }
+
+    btn.addEventListener("click", function () {
+      var next = current() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      updateLabel();
+    });
+
+    updateLabel();
+    document.body.appendChild(btn);
+  });
+</script>

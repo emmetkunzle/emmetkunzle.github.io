@@ -2,14 +2,30 @@
 ---
 @import "minima";
 
-/* Images: scale down on small screens, never overflow */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
+/* Toggle button (bottom-right corner) */
+.theme-toggle {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #fff;
+  color: #111;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* All dark styles live in one place so they can be used twice below */
+@mixin dark-theme {
+  color-scheme: dark;
+
   body {
     background-color: #121212;
     color: #e0e0e0;
@@ -20,4 +36,21 @@ img {
   .site-nav .page-link, .site-nav .page-link:visited { color: #ccc; }
   blockquote { color: #aaa; border-color: #444; }
   pre, code { background-color: #1e1e1e; border-color: #333; }
+  .theme-toggle {
+    background: #1e1e1e;
+    color: #eee;
+    border-color: #444;
+  }
+}
+
+/* No saved choice: follow the system setting */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-theme;
+  }
+}
+
+/* Visitor clicked the toggle to choose dark */
+:root[data-theme="dark"] {
+  @include dark-theme;
 }
