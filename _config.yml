@@ -1,0 +1,7 @@
+title: Emmet's Portfolio
+description: Electrical Engineer
+theme: minima
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
