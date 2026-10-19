@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Emmet Kunzle's Portfolio
-
 Electrical Engineering Student at Rutgers University NB
 
 
