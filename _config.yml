@@ -1,6 +1,10 @@
-title: Emmet Kunzle - Portfolio
-description: Electrical Engineer
+title: Emmet Kunzle
+description: Electrical Engineering Portfolio
 theme: minima
+
+minima:
+  social_links:
+    linkedin: emmet-kunzle-32710232a
 
 kramdown:
   math_engine: mathjax
