@@ -8,6 +8,6 @@ excerpt_separator: "<!--more-->"
 
 Goal: Build a digital scale that can measure mass in both grams and ounces up to at least 5kg
 
-!["Scale Off Image"](emmetkunzle.github.io/Images/IMG_5373.jpg)
+!["Scale Off Image"](digitalscale_images\IMG_5373.JPG)
 
 <!--more-->

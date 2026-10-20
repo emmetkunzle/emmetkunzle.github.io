@@ -2,9 +2,6 @@
 layout: page
 ---
 
-
-<br>
-
 <section class="portfolio-grid">
   <h2>My Portfolio Projects</h2>
   <ul>
