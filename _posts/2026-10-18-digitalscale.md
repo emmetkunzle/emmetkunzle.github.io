@@ -11,8 +11,8 @@ Goal: Build a digital scale that can measure mass in both grams and ounces up to
 
 <!--more-->
 
-!["Scale Off Image1.1.0"](/assets/digitalscale_images/IMG_5385.JPG){: width="400"}
-!["Big img test"](/assets/digitalscale_images/IMG_5378.JPG){: width="400"}
+!["Scale Off Image1.1.0"](/assets/digitalscale_images/IMG_5385.JPG){: width="300"}
+!["Big img test"](/assets/digitalscale_images/IMG_5378.JPG){: width="300"}
 
 
 ### Arduino Program:
