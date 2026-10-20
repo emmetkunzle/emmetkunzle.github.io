@@ -9,11 +9,10 @@ excerpt_separator: "<!--more-->"
 
 Goal: Build a digital scale that can measure mass in both grams and ounces up to at least 5kg
 
-!["Scale Off Image1.1.0"](/assets/digitalscale_images/IMG_5385.JPG)
-
 <!--more-->
 
-!["Big img test"](/assets/digitalscale_images/IMG_5378.JPG)
+!["Scale Off Image1.1.0"](/assets/digitalscale_images/IMG_5385.JPG){: width="400"}
+!["Big img test"](/assets/digitalscale_images/IMG_5378.JPG){: width="400"}
 
 
 ### Arduino Program:
