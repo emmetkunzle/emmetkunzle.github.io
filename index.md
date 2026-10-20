@@ -13,7 +13,7 @@ layout: home
         <h3>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
-        <!---<p>{{ post.excerpt | strip_html }}</p>--->
+        <p>{{ post.excerpt | strip_html }}</p>
         <a href="{{ post.url | relative_url }}" class="read-more">View Project &rarr;</a>
       </li>
     {% endfor %}
