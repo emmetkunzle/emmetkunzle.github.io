@@ -3,6 +3,7 @@ layout: post
 title: "Digital Scale Project"
 date: 2026-10-18 12:00:00 -0400
 category: project
+image: /assets/digitalscale_images/IMG_5373.JPG
 excerpt_separator: "<!--more-->"
 ---
 
