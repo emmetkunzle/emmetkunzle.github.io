@@ -12,7 +12,7 @@ layout: page
         </h3>
         <p>{{ post.excerpt | strip_html }}</p>
         {% if post.image %}
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" width = "400">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
         {% endif %}
         <br>
         <a href="{{ post.url | relative_url }}" class="read-more">View Project &rarr;</a>
