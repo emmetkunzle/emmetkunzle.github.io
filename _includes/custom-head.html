@@ -19,7 +19,7 @@
         (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     }
     function updateLabel() {
-      btn.textContent = current() === "dark" ? "☀️ Light" : "🌙 Dark";
+      btn.textContent = current() === "dark" ? "Light" : "Dark";
     }
 
     btn.addEventListener("click", function () {
