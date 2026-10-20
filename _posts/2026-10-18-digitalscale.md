@@ -10,6 +10,6 @@ excerpt_separator: "<!--more-->"
 Goal: Build a digital scale that can measure mass in both grams and ounces up to at least 5kg
 
 !["Scale Off Image1.0.2"](/assets/digitalscale_images/IMG_5373.JPG)
-!["Big img test"](/assets/digitalscale_images/IMG_5378.JPG)
 
-<!--more-->
+
+!["Big img test"](/assets/digitalscale_images/IMG_5378.JPG)
