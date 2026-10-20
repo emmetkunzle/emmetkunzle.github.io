@@ -2,8 +2,8 @@
 layout: page
 ---
 
+<h1>My Projects</h1>
 <section class="portfolio-grid">
-  <h1>My Projects</h1>
   <ul>
     {% for post in site.categories.project %}
       <li class="project-card">
