@@ -32,7 +32,6 @@ Goal: Build a digital scale that can measure mass in both grams and ounces up to
 | SPST Rocker  | $1.11  |
 | SPDT Push    | $1.06  |
 | SPDT Switch  | $0.95  |
-===
 | Total        | $32.73 |
 
 ### Arduino Program:
