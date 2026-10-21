@@ -20,6 +20,21 @@ Goal: Build a digital scale that can measure mass in both grams and ounces up to
 ### 3D Model Drawings
 !["3DEngineeringDrawings"](/assets/digitalscale_images/DS_drawing.jpg)
 
+### BOM
+
+| Item         | Cost   |
+| :----------: | :----: |
+| Load Cell    | $3.95  |
+| ADC          | $9.95  |
+| OLED         | $15.49 |
+| Arduino Nano | $3.10  |
+| 10k Resistor | $0.22  |
+| SPST Rocker  | $1.11  |
+| SPDT Push    | $1.06  |
+| SPDT Switch  | $0.95  |
+===
+| Total        | $32.73 |
+
 ### Arduino Program:
 Running on Arduino Nano (Old Bootloader)
 ```
