@@ -14,6 +14,11 @@ Goal: Build a digital scale that can measure mass in both grams and ounces up to
 !["Scale Off Image1.1.0"](/assets/digitalscale_images/IMG_5385.JPG){: width="365"}
 !["Big img test"](/assets/digitalscale_images/IMG_5378.JPG){: width="365"}
 
+### KiCad Schematic
+!["Circuit Schematic"](/assets/digitalscale_images/DS_schematic.jpg)
+
+### 3D Model Drawings
+!["3DEngineeringDrawings"](/assets/digitalscale_images/DS_drawing.jpg)
 
 ### Arduino Program:
 Running on Arduino Nano (Old Bootloader)
